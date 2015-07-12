@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION">
+  <aura:attribute name="actsave" type="Account"/>
+  <aura:attribute name="isupdate" type="boolean" default="false"/>
+</aura:event>

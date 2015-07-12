@@ -1,0 +1,19 @@
+.THIS.container {	width: 100%;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+.THIS .center {
+	margin: 0px auto;
+}
+
+.THIS .content {
+	max-width: 768px;
+	font-size: 12px;
+	color: #3c3d3e;
+}
+
+/*toggleCss.css*/
+.THIS .toggle {
+   display: none;
+}

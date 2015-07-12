@@ -1,0 +1,24 @@
+<aura:component >
+   	<aura:attribute name="actdetail" type="Account"/>
+   	<aura:handler event="c:selectAccount" action="{!c.populatedetail}"/>
+   	<aura:handler event="c:saverowEvent" action="{!c.refreshdetail}"/>
+    <aura:registerEvent name="deleteAccount" type="c:deleteAccountCard" />
+    <aura:registerEvent name="mainNavigate" type="c:mainNavigator" />
+    <aura:registerEvent name="editAccount" type="c:editAccount" />
+   <div class="panel-heading">
+		    <h1 class="panel-title"><b>Account Detail</b></h1><br/>
+		    <button type="button" class="btn btn-default btn-lg btn-block" onclick="{!c.back}">Back</button>
+		    <button type="button" class="btn btn-default btn-lg btn-block" onclick="{!c.edit}">Edit</button>
+			<button type="button" class="btn btn-default btn-lg btn-block" onclick="{!c.delete}">Delete</button>
+	</div>
+		<div class="panel-body">
+		   Account Name :{!v.actdetail.Name}
+		    <br/><br/>
+		   Description:{!v.actdetail.Description}
+		    <br/><br/>
+		    Phone:{!v.actdetail.Phone}
+		    <br/><br/>
+		    Fax:{!v.actdetail.Fax}
+		   <br/><br/>
+		</div>
+</aura:component>

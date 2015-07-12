@@ -1,0 +1,18 @@
+<aura:component controller="AccountController">
+   <aura:attribute name="acttoedit" type="Account" default="{ 'sobjectType': 'Account','Name': '','Description': '',
+'Phone': '','Fax': ''}"/>
+   <aura:handler event="c:editAccount" action="{!c.editAcc}"/>
+    <aura:handler event="c:newAccount" action="{!c.newAcc}"/>
+   <aura:registerEvent name="saveAccount" type="c:saverowEvent" />
+   <aura:registerEvent name="cancel" type="c:detailNavigator" />
+   <form aura:id="formId">
+		<fieldset>
+			<ui:inputText aura:id="name" label="Name" class="form-control" value="{!v.acttoedit.Name}" placeholder="Account Name" required="true"/><br/>
+			<ui:inputText aura:id="description" label="Description" class="form-control" value="{!v.acttoedit.Description}" placeholder="Enter description"/><br/>
+			<ui:inputPhone aura:id="phone" label="Phone" class="form-control" value="{!v.acttoedit.Phone}"/><br/>
+			<ui:inputText aura:id="fax" label="Fax" class="form-control" value="{!v.acttoedit.Fax}"/><br/>
+			<ui:button label="Submit" press="{!c.updateAccount}" class="btn btn-default btn-lg btn-block"/>
+			<ui:button class="btn btn-default btn-lg btn-block" label="Cancel" press="{!c.cancel}"/>
+		</fieldset>
+	</form>
+</aura:component>

@@ -1,0 +1,50 @@
+<aura:component controller="AccountController" implements="force:appHostable">
+  <ltng:require styles="/resource/SPABootstrap"/>
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <aura:attribute name="lstAccnts" type="Account[]"/>
+  <aura:attribute name="messages" type="Aura.Component[]" access="GLOBAL"/>
+
+  <aura:handler event="c:selectAccount" action="{!c.navigate}"/>
+  <aura:handler event="c:deleteAccountCard" action="{!c.deleterec}"/>
+  <aura:handler event="c:mainNavigator" action="{!c.mainnavigate}"/>
+  <aura:handler event="c:editAccount" action="{!c.editnavigate}"/>
+  <aura:handler event="c:saverowEvent" action="{!c.detailnavigate}"/>
+  <aura:handler event="c:detailNavigator" action="{!c.navigate}"/>
+
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+
+  <div class="SPASample">
+    <div class="container">
+	    <div class="jumbotron">
+		  	<h1>Sample SPA SFDC Lightning App</h1>
+		  	<p>This is a simple SPA app using salesforce lighning app</p>
+	    </div>
+	
+	<button type="button" class="btn btn-primary btn-lg btn-block" aura:id="Newbtn" onclick="{!c.newAcc}">New</button><br/>
+
+	<div aura:id="messages">
+        {!v.messages}
+    </div>
+
+  	<div class="list-group" aura:id="listview">
+	  	<aura:iteration items="{!v.lstAccnts}" var="account">
+		    <c:LightningSPAlist act="{!account}"/>
+		  </aura:iteration>
+	</div>
+
+	<center>
+   		<ui:spinner aura:id="spinner"/>
+   	</center>
+
+		<div class="panel panel-default" aura:id="detailView">
+		  <c:LightningSPADetail />
+		</div>
+
+		<div aura:id="editview">
+			<c:LightningSPAEdit />
+		</div>
+
+   </div>
+  </div>
+</aura:component>

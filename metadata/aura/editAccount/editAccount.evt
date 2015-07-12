@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION">
+	<aura:attribute name="actedit" type="Account" default="{ 'sobjectType': 'Account','Name': '','Description': '',
+'Phone': '','Fax': ''}"/>
+</aura:event>

@@ -1,0 +1,19 @@
+{
+    "username": "msrivastav13@gmail.com", 
+    "project_name": "LightningSPAApp", 
+    "org_url": "", 
+    "namespace": "", 
+    "metadata_container": "1dc90000000BGRRAA4", 
+    "environment": "production", 
+    "workspace": "C:\\Users\\mohith\\Desktop\\ForcePrj", 
+    "id": "UU8V0G3S2GFXA4NP4CQPVYTJCC39NO9R", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}

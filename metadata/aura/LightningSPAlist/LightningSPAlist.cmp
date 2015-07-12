@@ -1,0 +1,8 @@
+<aura:component >
+   <aura:attribute name="act" type="Account"/>
+   <aura:registerEvent name="selectAccount" type="c:selectAccount" />
+  			<a href="#" aura:id="{!v.act.Id}" onclick="{!c.select}" class="list-group-item">
+	    		<h4 class="list-group-item-heading">{!v.act.Name}</h4>
+	    		<p class="list-group-item-text">Phone :{!v.act.Phone}</p>
+			</a>
+</aura:component>

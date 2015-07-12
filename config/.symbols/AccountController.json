@@ -1,0 +1,116 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "AccountController", 
+    "tableDeclaration": {
+        "type": "AccountController", 
+        "modifiers": [
+            "with sharing", 
+            "public"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "AccountController"
+    }, 
+    "key": "01p90000006WjFXAA0", 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 5
+            }, 
+            "name": "lst"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 49, 
+                "line": 10
+            }, 
+            "name": "acc"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 47, 
+                "line": 16
+            }, 
+            "name": "acc"
+        }
+    ], 
+    "id": "01p90000006WjFXAA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "lstaccounts", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 32, 
+                "line": 4
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "deleteAccount", 
+            "parameters": [
+                {
+                    "type": "Account", 
+                    "name": "acc"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 10
+            }, 
+            "returnType": "Account", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "saveAccount", 
+            "parameters": [
+                {
+                    "type": "Account", 
+                    "name": "acc"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 16
+            }, 
+            "returnType": "Account", 
+            "type": null
+        }
+    ]
+}

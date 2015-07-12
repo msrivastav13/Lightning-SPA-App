@@ -1,0 +1,269 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "metadata/aura/detailNavigator/detailNavigator.evt",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 223.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPA",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPADetail",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPAEdit",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/saverowEvent"
+	],
+	"file_history":
+	[
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPA/LightningSPA.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/editAccount/editAccount.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPA/LightningSPAStyle.css",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPA/LightningSPAHelper.js",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPA/LightningSPAController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPADetail/LightningSPADetailController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPAEdit/LightningSPAEditController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/saverowEvent/saverowEvent.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPAEdit/LightningSPAEdit.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/metadata/aura/LightningSPAEdit/LightningSPAEditHelper.js",
+		"/C/Users/mohith/Desktop/ForcePrj/LightningSPAApp/src/classes/AccountController.cls",
+		"/C/Users/mohith/Desktop/SampleVROPage.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPA/LightningSPAController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPAEdit/LightningSPAEdit.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPAEdit/LightningSPAEditController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPAlist/LightningSPAlist.cmp",
+		"/C/Users/mohith/Desktop/ANT_CMD/build.xml",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPA/LightningSPA.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPAEdit/LightningSPAEditHelper.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPADetail/LightningSPADetailController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPA/LightningSPAHelper.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPADetail/LightningSPADetail.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/saverowEvent/saverowEvent.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/deleteAccountCard/deleteAccountCard.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/editAccount/editAccount.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/mainNavigator/mainNavigator.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPAlist/LightningSPAlistController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/selectAccount/selectAccount.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/detailNavigator/detailNavigator.evt",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPAApp/LightningSPAApp.app",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/DynamicExample/DynamicExample.app",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/LightningSPA/LightningSPAStyle.css",
+		"/C/Users/mohith/Desktop/SPABootstrap.css",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/DynamicComponent/DynamicComponentController.js",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/DynamicComponent/DynamicComponent.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/apex-scripts/MyScriptName.cls",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/metadata/aura/FileUploader/FileUploader.cmp",
+		"/C/Users/mohith/Desktop/ForcePrj/CaryleApp/src/staticresources/EasyUploadCSS.resource-meta.xml",
+		"/C/Users/mohith/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/mohith/AppData/Roaming/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings",
+		"/C/Users/mohith/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/C/Users/mohith/workspace/SampleTest/unpackaged/classes/Accountctrl.cls"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"selectedAcc",
+			"createFullXMLToShareLeads",
+			"share",
+			"updateCases1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "metadata/aura/detailNavigator/detailNavigator.evt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LightningSPAApp.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
